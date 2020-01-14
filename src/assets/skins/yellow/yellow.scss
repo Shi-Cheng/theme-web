@@ -1,0 +1,91 @@
+.yellow{
+  $base-color-1: #433208;
+  $base-color-2: #fff;
+  $base-color-3: #e1e1e1;
+  $base-color-4: #434343;
+  $base-color-5: #ccc;
+  $hover-color: #413f1d;
+  .link:hover {
+    text-decoration-line: none;
+  }
+  .theme-header{
+    .header-logo{
+      background-color: $base-color-1;
+    }
+  }
+  .theme-container{
+    $bgcolor:$base-color-2;
+    $menu-font-color: $base-color-2;
+    .theme-container-menus{
+      background-color: $base-color-2;
+
+      .el-menu{
+        background-color: $bgcolor;
+      }
+      .el-submenu__title i{
+        color: $base-color-1;
+      }
+      .el-submenu__title:hover{
+        color: $menu-font-color;
+        background-color: $hover-color;
+        i {
+          color: $menu-font-color;
+        }
+      }
+      .el-menu-item {
+        text-align: left;
+        background: $bgcolor;
+        color: $base-color-1;
+        i {
+          color: $hover-color;
+        }
+      }
+      .el-menu-item:hover {
+        color: $bgcolor;
+        i {
+          color: $bgcolor;
+        }
+        background: $hover-color;
+      }
+      .el-menu-item.is-active {
+        color: $bgcolor;
+        i {
+          color: $bgcolor;
+        }
+        background: $hover-color;
+      }
+
+    }
+    .theme-container-box{
+      background-color: $base-color-3;
+
+      .container-search{
+        background-color: $base-color-2;
+        border-radius: 0.5rem;
+        .search-container{
+          form{
+            .search-box{
+              .search-input{
+                border-color: $base-color-1;
+              }
+            }
+            .search-btn{
+              background-color: $base-color-1;
+              color: $base-color-2;
+            }
+          }
+        }
+      }
+      .container-content{
+        background-color: $base-color-2;
+        box-shadow: 0px 5px 5px 0px $base-color-5;
+        padding-top: 0.5rem ;
+        padding-left: 1rem;
+      }
+    }
+  }
+  .theme-footer{
+    background-color: $base-color-4;
+    color: $base-color-2;
+  }
+}

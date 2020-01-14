@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html{
+  font-size: 10px;
+  height: 100%;
+}
+body{
+  font-size: 1.6rem;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+}
+div {
+  display: block;
+  position: absolute;
+}
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: #e1e1e1;
+  font-family: "Consolas", "微软雅黑", "Microsoft Yahei", "microsoft yahei", "Arial", "Simsun", "sans-self",
+  "Arial Narrow", "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+}

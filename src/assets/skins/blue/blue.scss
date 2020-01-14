@@ -1,0 +1,90 @@
+.blue{
+  $base-color-1: #000066;
+  $base-color-2: #e1e1e1;
+  $base-color-3: #fff;
+  $base-color-4: #fdfffd;
+  $base-color-5: #ccc;
+  .link:hover {
+    text-decoration-line: none;
+  }
+  .theme-header{
+    .header-logo{
+      background-color: $base-color-1;
+    }
+  }
+  .theme-container{
+    $bgcolor:$base-color-3;
+    $hover-color: $base-color-1;
+    $menu-font-color: $base-color-1;
+    .theme-container-menus{
+      color: #fff;
+      background-color: $base-color-4;
+      .el-menu{
+        background-color: $base-color-3;
+      }
+      .el-submenu__title i{
+        color: $base-color-1;
+      }
+      .el-submenu__title:hover{
+        color: $base-color-2;
+        background-color: $hover-color;
+        i {
+          color: $menu-font-color;
+        }
+      }
+      .el-menu-item {
+        text-align: left;
+        background: $bgcolor;
+        color: $base-color-1;
+        i {
+          color: $base-color-1;
+        }
+      }
+      .el-menu-item:hover {
+        color: $bgcolor;
+        i {
+          color: $bgcolor;
+        }
+        background: $hover-color;
+      }
+      .el-menu-item.is-active {
+        color: $bgcolor;
+        i {
+          color: $bgcolor;
+        }
+        background: $hover-color;
+      }
+    }
+    .theme-container-box{
+      background-color: $base-color-2;
+      .container-search{
+        background-color: $base-color-3;
+        border-radius: 0.5rem;
+        color: $base-color-3;
+        .search-container{
+          form{
+            .search-box{
+              .search-input{
+                border-color: $base-color-1;
+              }
+            }
+            .search-btn{
+              background-color: $base-color-1;
+              color: $base-color-2;
+            }
+          }
+        }
+      }
+      .container-content{
+        background-color: $base-color-3;
+        box-shadow: 0px 5px 5px 0px $base-color-5;
+        padding-top: 0.5rem ;
+        padding-left: 1rem;
+      }
+    }
+  }
+  .theme-footer{
+    background-color: $base-color-1;
+    color: #fff;
+  }
+}

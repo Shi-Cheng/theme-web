@@ -1,0 +1,44 @@
+$font-size: 14px;
+$header-height: 80px;
+$footer-height: 60px;
+$menu-width: 200px;
+$content-height: calc(100% - #{$header-height} - #{$footer-height});
+.home-container{
+  width: 100%;
+  height: 100%;
+  .theme-header{
+    width: 100%;
+    height: $header-height;
+  }
+  .theme-container{
+    display: flex;
+    flex-direction: row;
+    height: $content-height;
+    min-height: $content-height;
+    .theme-container-menus{
+      width: $menu-width;
+      height: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      left: 0px;
+      top: 0px;
+    }
+    .theme-container-box{
+      width: calc(100% - #{$menu-width});
+      margin: 0.5rem 0.5rem 0.8rem 0.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      .container-content{
+        margin-top: 1rem;
+      }
+    }
+  }
+  .theme-footer{
+    position:fixed;
+    width: 100%;
+    bottom: 0px;
+    height: $footer-height;
+    line-height: $footer-height;
+    text-align: center;
+  }
+}

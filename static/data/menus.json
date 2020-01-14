@@ -1,0 +1,76 @@
+{
+  "permissions": [
+    {
+      "isValid": "true",
+      "label": "main",
+      "name": "首页"
+    },
+    {
+      "isValid": "web_manage",
+      "label": "web",
+      "name": "前端语言",
+      "children": [{
+        "isValid": "true",
+        "label": "web_manage",
+        "name": "CSS",
+        "children": [{
+          "isValid": "true",
+          "label": "web_add",
+          "name": "新增"
+        }]
+      }]
+    },
+    {
+      "isValid": "true",
+      "label": "develop_manage",
+      "name": "后端语言",
+      "children": [{
+        "isValid": "true",
+        "label": "java_manage",
+        "name": "java",
+        "children": [{
+          "isValid": "true",
+          "label": "java_manage_add",
+          "name": "新增"
+        }]
+      },{
+        "isValid": "true",
+        "label": "android_manage",
+        "name": "Android"
+      }]
+    },
+    {
+      "isValid": "true",
+      "label": "tools_manage",
+      "name": "开发工具",
+      "children": [{
+        "isValid": "true",
+        "label": "idea_manage",
+        "name": "IDEA",
+        "children": [{
+          "isValid": "true",
+          "label": "idea_manage_add",
+          "name": "添加"
+        }]
+      },{
+        "isValid": "true",
+        "label": "webstorm_manage",
+        "name": "WebStorm",
+        "children": [{
+          "isValid": "true",
+          "label": "webstorm_manage_add",
+          "name": "添加"
+        }]
+      },{
+        "isValid": "true",
+        "label": "vscode_manage",
+        "name": "VsCode",
+        "children": [{
+          "isValid": "true",
+          "label": "vscode_manage_add",
+          "name": "添加"
+        }]
+      }]
+    }
+  ]
+}

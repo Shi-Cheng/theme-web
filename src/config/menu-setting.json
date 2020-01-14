@@ -1,0 +1,106 @@
+[
+  {
+    "id": "home",
+    "name": "首页",
+    "path": "/",
+    "icon": "el-icon-s-home",
+    "children": null,
+    "leaf": false
+  },
+  {
+    "id": "theme_web",
+    "name": "前端语言",
+    "path": "/theme_web",
+    "icon":"el-icon-s-operation",
+    "leaf": true,
+    "children": [
+      {
+        "name": "CSS",
+        "path": "/web_css"
+      },
+      {
+        "name": "JavaScript",
+        "path": "/web_javascript"
+      },
+      {
+        "name": "HTML",
+        "path": "/web_html"
+      }
+    ]
+  },
+  {
+    "id": "theme_develop",
+    "name": "后端语言",
+    "path": "/theme_develop",
+    "icon":"el-icon-share",
+    "leaf": true,
+    "children": [
+      {
+        "name": "JAVA",
+        "path": "/develop_java"
+      },
+      {
+        "name": "Android",
+        "path": "/develop_android"
+      },
+      {
+        "name": "GoLang",
+        "path": "/develop_go"
+      },
+      {
+        "name": "Python",
+        "path": "/develop_python"
+      }
+    ]
+  },
+  {
+    "id": "theme_tools",
+    "name": "开发工具",
+    "path": "/theme_tools",
+    "icon":"el-icon-s-cooperation",
+    "leaf": true,
+    "children": [
+      {
+        "name": "IDEA",
+        "path": "/tool_idea"
+      },
+      {
+        "name": "WebStorm",
+        "path": "/tool_webstorm"
+      },
+      {
+        "name": "VsCode",
+        "path": "/tool_vscode"
+      },
+      {
+        "name": "HBuilder",
+        "path": "/tool_hbuilder"
+      }
+    ]
+  },
+  {
+    "id": "theme_system",
+    "name": "系统管理",
+    "path": "/theme_system",
+    "icon":"el-icon-setting",
+    "leaf": true,
+    "children": [
+      {
+        "name": "user",
+        "path": "/user-system"
+      },
+      {
+        "name": "menu",
+        "path": "/menu_system"
+      }
+    ]
+  },
+  {
+    "id": "about_us",
+    "name": "关于我们",
+    "path": "/about_us",
+    "icon":"el-icon-s-custom",
+    "children": null,
+    "leaf": false
+  }
+]
